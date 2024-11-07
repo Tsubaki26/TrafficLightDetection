@@ -1,0 +1,7 @@
+torch
+numpy
+opencv-python
+matplotlib
+ffmpeg-python
+ipython
+pillow

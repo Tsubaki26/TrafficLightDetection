@@ -1,8 +1,8 @@
 from torch.utils.data import Dataset
-from utils import parse_annotation_CVAT
-# import cv2
 import torch
 from PIL import Image
+
+from utils import parse_annotation_CVAT
 
 
 class TrafficLightDataset(Dataset):
