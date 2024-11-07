@@ -1,17 +1,29 @@
 # 信号機検出
-信号機を検出し、画面右下に認識結果を表示する。
+信号機を検出し、画面右下に認識結果を表示します。
+
 
 ## 使用した技術
 - Pytorch
 - Faster R-CNN
 
-## デモ動画
+## 実行例
+YouTubeに1分程度のデモ動画をアップロードしています。<br>
 https://youtu.be/RZgY4dEtYw8
-![sample](https://github.com/user-attachments/assets/8828ae77-2ba6-4f76-8a50-786ed61a93ed)
 
+<img src="./output_images/sample.png" width=400>
+<img src="./output_images/sample2.png" width=400>
+
+<br>
 
 # 学習
+## 学習データ
+学習データはYouTube動画をスクショして集めました。<br>
+- Train: 420枚
+- Test: 31枚
 
-![train_analysis](https://github.com/user-attachments/assets/526208db-dcb7-4274-99b5-7b83fdd24d79)
+↓ データセットの分析結果です。（analyze_dataset.pyを使用）<br>
+<img src="./output_images/train_analysis.png" width=400>
+<img src="./output_images/test_analysis.png" width=400>
 
-![test_analysis](https://github.com/user-attachments/assets/d81992bd-ee17-439c-b6d7-22f5f8e60539)
+## 学習結果
+<img src="./models/learning_plot_dataset2_b8_e200_lr0.005.png" width=400>
