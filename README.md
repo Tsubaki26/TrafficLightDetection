@@ -19,6 +19,7 @@ https://youtu.be/RZgY4dEtYw8
 # 学習
 ## 学習データ
 学習データはYouTube動画をスクショして集めました。<br>
+アノテーションはCVAT 1.1 フォーマットで作成しました。<br>
 - Train: 420枚
 - Test: 31枚
 
