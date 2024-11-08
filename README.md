@@ -6,6 +6,8 @@
 - Pytorch
 - Faster R-CNN
 
+物体検出の代表的なモデルである Faster R-CNN を勉強したので、理解を深めるために実際に使用してみました。
+
 ## 実行例
 YouTubeに1分程度のデモ動画をアップロードしています。<br>
 https://youtu.be/RZgY4dEtYw8
