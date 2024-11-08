@@ -8,11 +8,11 @@ from torchvision import transforms
 from torchvision.transforms.functional import to_pil_image
 from torch.utils.data import DataLoader
 
-from TrafficLightDataset import TrafficLightDataset, collate_fn
-from model import fasterrcnn_backbone_resnet101
-from utils import display_img_bbox
-from utils import train_one_epoch, evaluate
-from early_stopping import EarlyStopping
+from train.TrafficLightDataset import TrafficLightDataset, collate_fn
+from train.model import fasterrcnn_backbone_resnet101
+from other.utils import display_img_bbox
+from other.utils import train_one_epoch, evaluate
+from train.early_stopping import EarlyStopping
 
 DEVICE = torch.device("cuda") if torch.cuda.is_available else torch.device("cpu")
 print(DEVICE)

@@ -10,7 +10,6 @@
 YouTubeに1分程度のデモ動画をアップロードしています。<br>
 https://youtu.be/RZgY4dEtYw8
 
-<img src="./output_images/sample.png" width=400>
 <img src="./output_images/sample2.png" width=400>
 
 <br>
@@ -26,4 +25,12 @@ https://youtu.be/RZgY4dEtYw8
 <img src="./output_images/test_analysis.png" width=400>
 
 ## 学習結果
-<img src="./models/learning_plot_dataset2_b8_e200_lr0.005.png" width=400>
+<img src="./models/learning_plot_dataset2_b8_e200_lr0.005.png" width=300>
+
+<br>
+
+# 認識
+- 閾値0.7を超えるボックスのみを表示している。
+- 手前の信号機を読み取るために、ボックスの面積を計算して最大のものを採用した。
+
+    <img src="./output_images/sample.png" width=400>

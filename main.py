@@ -1,8 +1,8 @@
 import torch
 from torchvision import transforms
 
-from TrafficLightDataset import TrafficLightDataset
-from utils import display_img_bbox
+from train.TrafficLightDataset import TrafficLightDataset
+from other.utils import display_img_bbox
 
 # TEST_ANNOTATION_PATH = "./mini_train_dataset/annotations.xml"
 # TEST_IMG_DIR_PATH = "./mini_train_dataset/images/"

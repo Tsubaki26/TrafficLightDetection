@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 import torch
 from PIL import Image
 
-from utils import parse_annotation_CVAT
+from other.utils import parse_annotation_CVAT
 
 
 class TrafficLightDataset(Dataset):

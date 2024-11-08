@@ -5,8 +5,8 @@ import ffmpeg # type: ignore
 import torchvision
 import time
 
-from utils import detection_one_image
-from TrafficLightDataset import TrafficLightDataset
+from other.utils import detection_one_image
+from train.TrafficLightDataset import TrafficLightDataset
 
 VIDEO_PATH = "./dataset2/test/drive_test_short.mp4"
 TEST_ANNOTATION_PATH = "./dataset2/test/annotations.xml"
